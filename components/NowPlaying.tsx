@@ -90,7 +90,8 @@ export const Player: React.FC<Props> = ({
             #cover {
               animation-name: cover-appear;
               animation-delay: 300ms;
-              box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 3px 10px rgba(0,0,0,0.05);
+              box-shadow: 0px 0px 3px 1px RGBA(124, 193, 66, 0.75);
+              border: solid 1px RGB(124, 193, 66);
             }
 
             #cover:not([src]) {
@@ -135,7 +136,10 @@ export const Player: React.FC<Props> = ({
           display: "flex",
           alignItems: "center",
           paddingTop: 8,
+          paddingButton: 8
           paddingLeft: 4,
+          paddingRight: 4,
+          borderRadius: 5
         }}
       >
         <img id="cover" src={cover ?? null} width="48" height="48" />
