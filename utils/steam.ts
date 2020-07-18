@@ -1,7 +1,9 @@
 import fetch from "isomorphic-unfetch";
 
-const STEAM_WEB_API_KEY = "CCBF04009862ACB3C010A69281404C28"
-const STEAM_ID = "76561198063897772"
+const { 
+    STEAM_WEB_API_KEY,
+    STEAM_ID
+} = process.env;
 
 // export async function getCurrentlyPlaying(username){
 //     return fetch(`https://steamcommunity.com/id/${username}?xml=1`)
