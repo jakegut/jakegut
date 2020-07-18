@@ -27,4 +27,5 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 </a>
 
 **Steam status**
+
 <img src="https://jakeryang.vercel.app/currently-playing" width="256" height="64" alt="Now Playing">
