@@ -6,15 +6,15 @@ const sizes = {
 };
 
 const colors = {
-  default: "#24292e",
+  default: "#7cc142",
   "gray-light": "#e1e4e8",
-  gray: "#586069",
+  gray: "#7cc142",
   "gray-dark": "#24292e",
 };
 
 const families = {
   default:
-    "-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji",
+    "Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji",
   mono: "SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace",
 };
 
