@@ -15,6 +15,7 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 
 * LinkedIn - [jakegut](https://www.linkedin.com/in/jakegut/)
 * Personal site - [jakerg.me](https://jakerg.me)
+* Discord - jakeryang#7778
 
 ## Misc
 **Now Playing** on Spotify
