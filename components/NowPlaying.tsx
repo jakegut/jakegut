@@ -26,6 +26,7 @@ export const Player: React.FC<Props> = ({
             div {
               background-color: #161616;
               color: #7cc142;
+              border-radius: 3px
             }
             .paused { 
               animation-play-state: paused !important;
@@ -136,10 +137,9 @@ export const Player: React.FC<Props> = ({
           display: "flex",
           alignItems: "center",
           paddingTop: 8,
-          paddingButton: 8,
+          paddingBottom: 8,
           paddingLeft: 4,
-          paddingRight: 4,
-          borderRadius: 5
+          paddingRight: 4
         }}
       >
         <img id="cover" src={cover ?? null} width="48" height="48" />
