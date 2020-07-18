@@ -23,6 +23,10 @@ export const Player: React.FC<Props> = ({
     <ReadmeImg width="256" height="64">
       <style>
         {`
+            div {
+              background-color: #161616;
+              color: #7cc142;
+            }
             .paused { 
               animation-play-state: paused !important;
               background: #e1e4e8 !important;
@@ -45,7 +49,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 4px;
               margin: -1px;
-              border: 1px solid #e1e4e8;
+              border: 1px solid #7cc142;
               border-radius: 4px;
               overflow: hidden;
               padding: 2px;
@@ -59,7 +63,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 6px;
               transform-origin: left center;
-              background-color: #24292e;
+              background-color: #7cc142;
               animation: progress ${duration}ms linear;
               animation-delay: -${progress}ms;
             }
