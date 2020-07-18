@@ -1,5 +1,6 @@
 # Jake Gutierrez - @jakeryang
-Computer Science Major and Business minor at Southwestern University. Currently working with  [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.htmlc) as a Research Assistant working on gitlytics. Read more about my experince [here](https://jakeryang.github.io/).
+
+Computer Science Major and Business minor at Southwestern University. Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.htmlc) as a Research Assistant working on gitlytics. Read more about my experince [here](https://jakeryang.github.io/).
 
 [View my resume](https://github.com/jakeryang/jakeryang/blob/master/Jake%20Gutierrez%20Resume.pdf)
 
@@ -13,13 +14,17 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 
 ## Contact Me
 
-* LinkedIn - [jakegut](https://www.linkedin.com/in/jakegut/)
-* Personal site - [jakerg.me](https://jakerg.me)
-* Discord - jakeryang#7778
+- LinkedIn - [jakegut](https://www.linkedin.com/in/jakegut/)
+- Personal site - [jakerg.me](https://jakerg.me)
+- Discord - jakeryang#7778
 
 ## Misc
+
 **Now Playing** on Spotify
 
 <a href="https://jakeryang.vercel.app/now-playing?open">
     <img src="https://jakeryang.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
 </a>
+
+**Steam status**
+<img src="https://jakeryang.vercel.app/currently-playing" width="256" height="64" alt="Now Playing">
