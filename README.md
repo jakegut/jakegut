@@ -28,4 +28,4 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 
 **Steam status**
 
-<img src="https://jakeryang.vercel.app/currently-playing" width="256" height="64" alt="Now Playing">
+<img src="https://steam-status-img.vercel.app/currently-playing?username=Borgdude" width="256" height="64"  alt="Now Playing">
