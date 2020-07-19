@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import ReadmeImg from "./ReadmeImg";
 import Text from "./Text";
 
@@ -19,6 +19,10 @@ export const Player: React.FC<Props> = ({
   duration,
   isPlaying,
 }) => {
+
+  const containerRef = useRef(null);
+
+
   return (
     <ReadmeImg width="256" height="64">
       <style>
@@ -150,12 +154,14 @@ export const Player: React.FC<Props> = ({
             flexDirection: "column",
             marginTop: -4,
             marginLeft: 8,
+            overflow: "hidden"
           }}
+          ref={containerRef}
         >
-          <Text id="track" weight="bold">
+          <Text id="track" weight="bold" parentRef={containerRef}>
             {`${track ?? ""} `.trim()}
           </Text>
-          <Text id="artist" color={!track ? "gray" : undefined}>
+          <Text id="artist" color={!track ? "gray" : undefined} parentRef={containerRef}>
             {artist || "Nothing playing..."}
           </Text>
           {track && (

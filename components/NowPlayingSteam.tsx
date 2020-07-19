@@ -111,6 +111,7 @@ export const Status: React.FC<Props> = ({
             flexDirection: "column",
             marginTop: -4,
             marginLeft: 8,
+            overflow: "hidden"
           }}
         >
           <Text id="track" weight="bold">

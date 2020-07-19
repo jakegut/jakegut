@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 
 const sizes = {
   default: 14,
@@ -29,8 +29,21 @@ const Text: React.FC<any> = ({
   family = "default",
   color = "default",
   size = "default",
+  parentRef = null,
   ...props
 }) => {
+
+  const ref = useRef(null);
+  const [thicc, setThicc] = useState(false)
+
+  useEffect(() => {
+    if(parentRef !== null && parentRef.current && ref.current){
+      if(ref.current.width > parentRef.current){
+        setThicc(true)
+      }
+    }
+  }, [])
+
   return (
     <p
       style={{
@@ -41,6 +54,8 @@ const Text: React.FC<any> = ({
         color: colors[color],
         fontWeight: weights[weight],
       }}
+      className = {thicc ?? 'ticker'}
+      ref={ref}
       {...props}
     >
       {children}
