@@ -16,25 +16,6 @@ const ReadmeImg = ({ width, height, children }) => {
                 margin: 0;
                 box-sizing: border-box;
               }
-
-              @keyframes ticker-anim {
-                0% { transform: translate3d(0%, 0, 0); }
-                100% { transform: translate3d(calc(-50%), 0, 0); }
-              }
-              
-              .ticker {
-                display: inline-block;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-                animation-duration: 10s;
-                animation-play-state: paused;
-                animation-name: ticker-anim;
-              }
-              
-              .ticker:hover{
-                animation-play-state: running;
-              }
-              
             `}</style>
           {children}
         </div>

@@ -29,20 +29,9 @@ const Text: React.FC<any> = ({
   family = "default",
   color = "default",
   size = "default",
-  parentRef = null,
   ...props
 }) => {
 
-  const ref = useRef(null);
-  const [thicc, setThicc] = useState(false)
-
-  useEffect(() => {
-    if(parentRef !== null && parentRef.current && ref.current){
-      if(ref.current.width > parentRef.current){
-        setThicc(true)
-      }
-    }
-  }, [])
 
   return (
     <p
@@ -53,9 +42,9 @@ const Text: React.FC<any> = ({
         fontFamily: families[family],
         color: colors[color],
         fontWeight: weights[weight],
+        textOverflow: "ellipsis",
+        overflow: "hidden"
       }}
-      className = {thicc ?? 'ticker'}
-      ref={ref}
       {...props}
     >
       {children}

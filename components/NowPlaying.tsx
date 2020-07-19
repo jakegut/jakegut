@@ -20,9 +20,6 @@ export const Player: React.FC<Props> = ({
   isPlaying,
 }) => {
 
-  const containerRef = useRef(null);
-
-
   return (
     <ReadmeImg width="256" height="64">
       <style>
@@ -156,12 +153,11 @@ export const Player: React.FC<Props> = ({
             marginLeft: 8,
             overflow: "hidden"
           }}
-          ref={containerRef}
         >
-          <Text id="track" weight="bold" parentRef={containerRef}>
+          <Text id="track" weight="bold">
             {`${track ?? ""} `.trim()}
           </Text>
-          <Text id="artist" color={!track ? "gray" : undefined} parentRef={containerRef}>
+          <Text id="artist" color={!track ? "gray" : undefined}>
             {artist || "Nothing playing..."}
           </Text>
           {track && (
