@@ -6,7 +6,7 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 
 ## My Work
 
-[gitlyics](https://github.com/jakeryang/gitlytics) - Allows faculty and teachers to have groups of GitHub repositories to analyze collaboration. (_ReactJS, Flask, PostgreSQL, Docker_)
+[gitlytics](https://github.com/jakeryang/gitlytics) - Allows faculty and teachers to have groups of GitHub repositories to analyze collaboration. (_ReactJS, Flask, PostgreSQL, Docker_)
 
 [Generative Graph Grammar Dungeons with GAN Rooms for the Legend of Zelda](https://people.southwestern.edu/~schrum2/SCOPE/zelda-graphgan.php) - Researched and explored techniques to generate Zelda-like dungeons using AI. (_Java, Python_)
 
