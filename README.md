@@ -1,12 +1,12 @@
 # Jake Gutierrez - @jakeryang
 
-Computer Science Major and Business minor at Southwestern University. Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.htmlc) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
+Computer Science Major and Business minor at Southwestern University. Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
 
 [View my resume](https://github.com/jakeryang/jakeryang/blob/master/Jake%20Gutierrez%20Resume.pdf)
 
 ## My Work
 
-[gitlyics](https://github.com/jakeryang/gitlytics) - Allows faculty and teachers to have groups of GitHub repositories to analyze collaboration. (_ReactJS, Flask, PostgreSQL, Docker_)
+[gitlytics](https://github.com/jakeryang/gitlytics) - Allows faculty and teachers to have groups of GitHub repositories to analyze collaboration. (_ReactJS, Flask, PostgreSQL, Docker_)
 
 [Generative Graph Grammar Dungeons with GAN Rooms for the Legend of Zelda](https://people.southwestern.edu/~schrum2/SCOPE/zelda-graphgan.php) - Researched and explored techniques to generate Zelda-like dungeons using AI. (_Java, Python_)
 
@@ -28,4 +28,4 @@ Computer Science Major and Business minor at Southwestern University. Currently 
 
 **Steam status**
 
-<img src="https://jakeryang.vercel.app/currently-playing" width="256" height="64" alt="Now Playing">
+<img src="https://steam-status-img.vercel.app/currently-playing?username=Borgdude" width="256" height="64"  alt="Now Playing">
