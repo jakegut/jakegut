@@ -1,8 +1,10 @@
 # Jake Gutierrez - @jakeryang
 
-Computer Science Major and Business minor at Southwestern University. Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
+Computer Science Major and Business minor at Southwestern University. 
 
-### [View my resume](https://jakegut.com/resume.pdf)
+Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
+
+#### [View my resume](https://jakegut.com/resume.pdf)
 
 ## My Work
 
