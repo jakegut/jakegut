@@ -2,7 +2,7 @@
 
 Computer Science Major and Business minor at Southwestern University. Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
 
-[View my resume](https://github.com/jakeryang/jakeryang/blob/master/Jake%20Gutierrez%20Resume.pdf)
+### [View my resume](https://jakegut.com/resume.pdf)
 
 ## My Work
 
