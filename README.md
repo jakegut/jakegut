@@ -1,4 +1,4 @@
-# Jake Gutierrez - @jakeryang
+# Jake Gutierrez - @jakegut
 
 Computer Science Major and Business minor at Southwestern University. 
 
