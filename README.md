@@ -1,24 +1,26 @@
 # Jake Gutierrez - @jakegut
 
-Computer Science Major and Business minor at Southwestern University. 
+Currently interning at [Rivet Health](https://www.rivethealth.com/) as a Software Engineer
 
-Currently working with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html) as a Research Assistant working on gitlytics. Read more about my experience [here](https://jakeryang.github.io/).
+[**View my resume**](https://jakegut.com/resume.pdf)
 
-#### [View my resume](https://jakegut.com/resume.pdf)
+[![twitter](https://img.shields.io/badge/-@jakeryangee-161616?style=flat-square&labelColor=161616&logo=twitter&logoColor=white&color=161616)](https://twitter.com/jakeryangee)  
+[![linkedin](https://img.shields.io/badge/-@jakegut-161616?style=flat-square&labelColor=161616&logo=LinkedIn&logoColor=white&color=161616)](https://www.linkedin.com/in/jakegut/)  
+![discord](https://img.shields.io/badge/-@jakegut7778-161616?style=flat-square&labelColor=161616&logo=Discord&logoColor=white&color=161616)
 
-## My Work
+## My Experience
 
-[gitlytics](https://github.com/jakeryang/gitlytics) - Allows faculty and teachers to have groups of GitHub repositories to analyze collaboration. (_ReactJS, Flask, PostgreSQL, Docker_)
+**Software Engineer Intern** at _Rivet Health_
 
-[Generative Graph Grammar Dungeons with GAN Rooms for the Legend of Zelda](https://people.southwestern.edu/~schrum2/SCOPE/zelda-graphgan.php) - Researched and explored techniques to generate Zelda-like dungeons using AI. (_Java, Python_)
+**Research Assistant** at _TAMU Engineering_ working on [gitlytics](https://github.com/jakeryang/gitlytics) with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html); read more about my experience [here](https://jakeryang.github.io/).
+
+**Artifical Intelligence Research Assistant** at _Southwestern University_ working on [Generative Graph Grammar Dungeons with GAN Rooms for the Legend of Zelda](https://people.southwestern.edu/~schrum2/SCOPE/zelda-graphgan.php) with [Dr. Jacob Schrum](https://people.southwestern.edu/~schrum2/)
+
+## My Projects
+
+[Simple Paintball]() - Spigot plugin that adds a Paitnball mini-game to Minecraft servers. (_Java, TravisCI, Maven, Spigot_)
 
 [Praylink](https://github.com/jakeryang/praylink) - Web app that allows people to text a number to submit a prayer request with a webpage that lists them. (_Flask, PostgreSQL, Twilio API, Docker_)
-
-## Contact Me
-
-- LinkedIn - [jakegut](https://www.linkedin.com/in/jakegut/)
-- Personal site - [jakegut.com](https://jakegut.com/)
-- Discord - jakeryang#7778
 
 ## Misc
 
