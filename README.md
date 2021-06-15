@@ -6,7 +6,7 @@ Currently interning at [Rivet Health](https://www.rivethealth.com/) as a Softwar
 
 [![twitter](https://img.shields.io/badge/-@jakeryangee-161616?style=flat-square&labelColor=161616&logo=twitter&logoColor=white&color=161616)](https://twitter.com/jakeryangee)  
 [![linkedin](https://img.shields.io/badge/-@jakegut-161616?style=flat-square&labelColor=161616&logo=LinkedIn&logoColor=white&color=161616)](https://www.linkedin.com/in/jakegut/)  
-![discord](https://img.shields.io/badge/-@jakegut7778-161616?style=flat-square&labelColor=161616&logo=Discord&logoColor=white&color=161616)
+![discord](https://img.shields.io/badge/-@jakegut%237778-161616?style=flat-square&labelColor=161616&logo=Discord&logoColor=white&color=161616)
 
 ## My Experience
 
