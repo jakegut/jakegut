@@ -10,7 +10,7 @@ Currently interning at [Rivet Health](https://www.rivethealth.com/) as a Softwar
 
 ## My Experience
 
-**Software Engineer Intern** at _Rivet Health_
+**Software Engineer** at _Rivet Health_
 
 **Research Assistant** at _TAMU Engineering_ working on [gitlytics](https://github.com/jakeryang/gitlytics) with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html); read more about my experience [here](https://jakeryang.github.io/).
 
