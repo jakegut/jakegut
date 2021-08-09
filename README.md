@@ -1,6 +1,6 @@
 # Jake Gutierrez - @jakegut
 
-Currently interning at [Rivet Health](https://www.rivethealth.com/) as a Software Engineer
+Currently at [Rivet Health](https://www.rivethealth.com/) as a Software Engineer
 
 [**View my resume**](https://jakegut.com/resume.pdf)
 
