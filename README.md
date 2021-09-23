@@ -1,6 +1,6 @@
 # Jake Gutierrez - @jakegut
 
-Currently at [Rivet Health](https://www.rivethealth.com/) as a Software Engineer
+Currently at [Rivet](https://www.rivethealth.com/) as a Software Engineer
 
 [**View my resume**](https://jakegut.com/resume.pdf)
 
@@ -10,7 +10,7 @@ Currently at [Rivet Health](https://www.rivethealth.com/) as a Software Engineer
 
 ## My Experience
 
-**Software Engineer** at _Rivet Health_
+**Software Engineer** at _Rivet_
 
 **Research Assistant** at _TAMU Engineering_ working on [gitlytics](https://github.com/jakeryang/gitlytics) with [Dr. Dilma Da Silva](https://engineering.tamu.edu/cse/profiles/da-silva-dilma.html); read more about my experience [here](https://jakeryang.github.io/).
 
