@@ -22,8 +22,6 @@ Currently at [Rivet](https://www.rivethealth.com/) as a Software Engineer
 
 [Simple Paintball](https://github.com/jakegut/SimplePaintball) - Spigot plugin that adds a Paintball mini-game to Minecraft servers. (_Java, TravisCI, Maven, Spigot_)
 
-[Praylink](https://github.com/jakeryang/praylink) - Web app that allows people to text a number to submit a prayer request with a webpage that lists them. (_Flask, PostgreSQL, Twilio API, Docker_)
-
 ## Misc
 
 **Now Playing** on Spotify
