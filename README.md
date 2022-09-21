@@ -1,6 +1,6 @@
 # Jake Gutierrez - @jakegut
 
-Currently at [Rivet](https://www.rivethealth.com/) as a Software Engineer
+Currently at [Clever](https://www.clever.com/) as a Software Engineer
 
 [**View my resume**](https://jakegut.com/resume.pdf)
 
@@ -9,6 +9,8 @@ Currently at [Rivet](https://www.rivethealth.com/) as a Software Engineer
 ![discord](https://img.shields.io/badge/-@jakegut%237778-161616?style=flat-square&labelColor=161616&logo=Discord&logoColor=white&color=161616)
 
 ## My Experience
+
+**Software Engineer** at [_Clever_](https://www.clever.com/) doing Infrastructure stuff.
 
 **Software Engineer** at [_Rivet_](https://rivethealth.com) working with Node.js, Angular, and Bazel.
 
