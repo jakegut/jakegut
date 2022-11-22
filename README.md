@@ -4,7 +4,7 @@ Currently at [Clever](https://www.clever.com/) as a Software Engineer
 
 [**View my resume**](https://jakegut.com/resume.pdf)
 
-[![twitter](https://img.shields.io/badge/-@gut__jake-161616?style=flat-square&labelColor=161616&logo=twitter&logoColor=white&color=161616)](https://twitter.com/gut_jake)  
+[![mastodon](https://img.shields.io/badge/-@jakegut@hachyderm.io-161616?style=flat-square&labelColor=161616&logo=mastodon&logoColor=white&color=161616)]([https://twitter.com/gut_jake](https://hachyderm.io/@jakegut))  
 [![linkedin](https://img.shields.io/badge/-@jakegut-161616?style=flat-square&labelColor=161616&logo=LinkedIn&logoColor=white&color=161616)](https://www.linkedin.com/in/jakegut/)  
 ![discord](https://img.shields.io/badge/-@jakegut%237778-161616?style=flat-square&labelColor=161616&logo=Discord&logoColor=white&color=161616)
 
