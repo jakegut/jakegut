@@ -1,6 +1,6 @@
 # Jake Gutierrez - @jakegut
 
-Currently at [Clever](https://www.clever.com/) as a Software Engineer
+Currently an Infra. Software Engineer at [Clever](https://www.clever.com/)
 
 [**View my resume**](https://jakegut.com/resume.pdf)
 
@@ -10,7 +10,7 @@ Currently at [Clever](https://www.clever.com/) as a Software Engineer
 
 ## My Experience
 
-**Software Engineer** at [_Clever_](https://www.clever.com/) doing Infrastructure stuff.
+**Software Engineer** at [_Clever_](https://www.clever.com/) doing Infrastructure stuff in Go.
 
 **Software Engineer** at [_Rivet_](https://rivethealth.com) working with Node.js, Angular, and Bazel.
 
