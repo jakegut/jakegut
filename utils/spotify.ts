@@ -38,11 +38,11 @@ export async function nowPlaying() {
   });
   const { status } = response;
   if (status === 204) {
+    // Nothing currently playing — not an error, render an empty widget.
     return {};
   } else if (status === 200) {
     const data = await response.json();
     return data;
   }
-  console.error(`Spotify now-playing request failed with status ${status}`);
-  return {};
+  throw new Error(`Spotify now-playing request failed with status ${status}`);
 }

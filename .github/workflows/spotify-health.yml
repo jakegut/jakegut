@@ -1,0 +1,60 @@
+name: Spotify token health check
+
+on:
+  schedule:
+    - cron: "0 12 * * 1" # Mondays at 12:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+  contents: read
+
+env:
+  HEALTH_URL: "https://jakeryang.vercel.app/now-playing?health=1"
+  ISSUE_TITLE: "Spotify token needs re-auth"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Poll the now-playing health endpoint
+        id: poll
+        run: |
+          code="000"
+          for attempt in 1 2 3; do
+            code=$(curl -sS -o /dev/null -w "%{http_code}" "$HEALTH_URL" || echo "000")
+            echo "Attempt $attempt: HTTP $code"
+            if [ "$code" = "200" ]; then
+              echo "healthy=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "healthy=false" >> "$GITHUB_OUTPUT"
+          echo "last_code=$code" >> "$GITHUB_OUTPUT"
+
+      - name: Open an issue if the token is unhealthy
+        if: steps.poll.outputs.healthy == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LAST_CODE: ${{ steps.poll.outputs.last_code }}
+        run: |
+          existing=$(gh issue list --state open --json number,title \
+            --jq ".[] | select(.title == \"$ISSUE_TITLE\") | .number" | head -n1)
+          if [ -n "$existing" ]; then
+            echo "Issue #$existing already open; not creating a duplicate."
+            exit 0
+          fi
+          gh issue create \
+            --title "$ISSUE_TITLE" \
+            --body "$(cat <<EOF
+          The now-playing health check (\`$HEALTH_URL\`) returned HTTP $LAST_CODE.
+
+          This usually means the Spotify refresh token has expired — as of a June 2026 policy change they last ~6 months from authorization and refreshing no longer extends them.
+
+          **To re-auth:**
+          1. Run \`node scripts/get-spotify-refresh-token.mjs\` locally (with \`SPOTIFY_CLIENT_ID\` / \`SPOTIFY_CLIENT_SECRET\` exported).
+          2. Update \`SPOTIFY_REFRESH_TOKEN\` in the Vercel project and redeploy.
+          3. Close this issue once the widget is back (the check runs weekly and won't open a duplicate meanwhile).
+          EOF
+          )"
