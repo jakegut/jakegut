@@ -13,9 +13,11 @@ const {
 // }
 
 export async function getCurrentlyPlaying(){
-    return fetch(`http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${STEAM_WEB_API_KEY}&steamids=${STEAM_ID}`)
-        .then(response => response.json())
-        .then(json => {
-            return json.response.players[0]
-        })
+    const response = await fetch(`http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${STEAM_WEB_API_KEY}&steamids=${STEAM_ID}`)
+    if (response.status !== 200) {
+        console.error(`Steam player-summaries request failed with status ${response.status}`);
+        return {};
+    }
+    const json = await response.json();
+    return json?.response?.players?.[0] ?? {};
 }

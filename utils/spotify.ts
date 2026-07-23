@@ -43,4 +43,6 @@ export async function nowPlaying() {
     const data = await response.json();
     return data;
   }
+  console.error(`Spotify now-playing request failed with status ${status}`);
+  return {};
 }

@@ -38,7 +38,9 @@ export default async function (req: NowRequest, res: NowResponse) {
     let textContent = "";
 
     const data = await getCurrentlyPlaying()
-    data.avatar = await toBase64(data.avatarmedium)
+    if (data.avatarmedium) {
+        data.avatar = await toBase64(data.avatarmedium)
+    }
 
     textContent = renderToString(Status({username: data.personaname, gameextrainfo: data.gameextrainfo, avatar: data.avatar}))
 
